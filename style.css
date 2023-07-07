@@ -10,6 +10,7 @@ list-style: none;
 display:flex;
 align-items: center;
 justify-content: space-around;
+padding: 10px;
 
 }
 .menus{
@@ -28,5 +29,47 @@ color:blue;
 .logo-photo{
 height: 50px;
 width: 120px;
+padding-top:10px ;
+padding-bottom: 10px;
 
+}
+
+.banner{
+
+    width: 800px;
+
+}
+
+.banner-container{
+
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    border: 2px;
+    background-color: rgb(0, 0, 0);
+    color:white;
+
+}
+
+.banner-text{
+font-size:40px;
+
+
+}
+p{
+    font-size: 16px;
+}
+.button{
+    padding:15px 20px 15px 20px;
+    color:white;
+    border-radius: 5px;
+    background-color:red;
+    font-size:16px;
+    cursor: pointer;
+    border: none;
+}
+.button:hover{
+
+    background-color: rgb(90, 93, 245);
 }
